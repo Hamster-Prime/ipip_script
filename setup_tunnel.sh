@@ -95,7 +95,6 @@ sysctl -p > /dev/null
 
 # 加载内核模块
 echo "--> 正在加载 IPIP 内核模块..."
-modprobe ip_gre
 modprobe ipip
 echo "✅ 系统环境配置完成。"
 
